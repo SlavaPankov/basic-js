@@ -24,8 +24,6 @@ function dateSample(sampleActivity) {
   }
 
   const numberSampleActivity = Number(sampleActivity);
-console.log(numberSampleActivity)
-
 
   if (numberSampleActivity === Infinity || isNaN(numberSampleActivity) || numberSampleActivity > MODERN_ACTIVITY || numberSampleActivity <= 0) {
     return false;
